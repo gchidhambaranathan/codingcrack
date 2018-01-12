@@ -75,7 +75,10 @@ public class TreeUtil {
         if(rootNode == null){
             return 0;
         }else {
-            return sizeOfBT(rootNode.getLeftNode()) + 1 + sizeOfBT(rootNode.getRightNode());
+            System.out.println("Node: " + rootNode.getData());
+            int size = sizeOfBT(rootNode.getLeftNode()) + 1 + sizeOfBT(rootNode.getRightNode());
+            System.out.println("Size: "+ size);
+            return size;
         }
     }
 }

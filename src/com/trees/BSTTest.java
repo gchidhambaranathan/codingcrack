@@ -34,7 +34,7 @@ public class BSTTest {
             System.out.println("Element not found");
         }*/
 
-     /* BinarySearchTreeNode minNode = BSTUtil.findMinInBST(rootNode);
+    /*  BinarySearchTreeNode minNode = BSTUtil.findMinInBST(rootNode);
 
       if(minNode != null){
           System.out.println("Minimum node in BST is " + minNode.getData());

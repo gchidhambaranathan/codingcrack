@@ -14,7 +14,8 @@ public class LinkedList {
         }
         int size = length();
         if(position >  size +1 || position < 1){
-            throw new Exception("Inproper position to insert element");
+            throw new Exception("In" +
+                    "Improper position to insert element");
         }
 
         if(position == 1){

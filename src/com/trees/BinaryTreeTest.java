@@ -36,17 +36,18 @@ public class BinaryTreeTest {
         threeNode.setLeftNode(sixNode);
         threeNode.setRightNode(sevenNode);
 
-       /* Traversal traversal = new Traversal();
+       Traversal traversal = new Traversal();
         traversal.preOrderTraversal(rootNode);
         System.out.println();
-        traversal.inOrderTraversal(rootNode);
+       traversal.inOrderTraversal(rootNode);
         System.out.println();
-        traversal.postOrderTraversal(rootNode);*/
+         traversal.postOrderTraversal(rootNode);
 
-       /*int max = TreeUtil.maxElementInBinaryTree(rootNode);
+       /*/*int max = TreeUtil.maxElementInBinaryTree(rootNode);
         System.out.println(max);*/
 
         //System.out.println(TreeUtil.searchElementInBT(rootNode, 5));
+        System.out.println();
         System.out.println(TreeUtil.sizeOfBT(rootNode));
 
     }
